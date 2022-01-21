@@ -1,6 +1,6 @@
-.container {
+body {
     text-align: center;
-
+    border-radius: 1rem solid black;
 }
 
 td {
