@@ -1,8 +1,79 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+ :root {
+     --bg: 
+     #ecfeff;
+     --primary : #0891b2;
+     --secondary : 
+     #7dd3fc;
+ }
+
+
 body {
-    text-align: center;
-    border-radius: 1rem solid black;
+    background-color: var(--bg);
+    color: white;
+    margin: auto;
+    font-family: 'Kanit', sans-serif;
 }
 
-td {
-    padding: 1rem;
+section {
+    width: 70%;
+    max-width: 500px;
+    padding:1.5em 1em;
+    margin: auto ;
+    text-align: center;
+    border: 0.1px solid black;
+    background-color: var(--primary);
+
+}
+
+ label, caption {
+     font-size: 1em;
+     font-weight: bold;
+     color: var(--bg);
+ } 
+
+ table{
+        width: 80%;
+        table-layout: fixed;
+}
+
+table, th, td{
+    padding: .2px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    word-wrap: break-word;
+    color:#1c1917;
+    background-color: var(--bg);
+}
+ td {
+    font-weight: bold; 
+ }
+
+input{
+    width: 70%;
+    margin: auto;
+    padding: 1em;
+    display: block;
+}
+
+.btn-check {
+    padding: .5em;  
+    border-radius: 2rem solid white;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--bg);
+    background-color: #737373;
+}
+
+.error-msg {
+    color: white;
+    font-weight: bold;
+}
+
+.no-of-notes {
+    color: var(--secondary);
 }
